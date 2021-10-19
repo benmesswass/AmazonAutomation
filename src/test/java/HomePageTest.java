@@ -24,6 +24,6 @@ public class HomePageTest {
         double[] values = homePage.addToChart();
         //double nbreOfElements = homePage.addToChart()[1];
         System.out.println(" price element is "+values[0]);
-        homePage.compareChartPrice(values[0], values[1]);
+        homePage.compareChartPrice(values[1], values[0]);
     }
 }
